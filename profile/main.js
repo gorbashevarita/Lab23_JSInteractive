@@ -55,3 +55,8 @@ show.addEventListener("click", () => {
     }
 });
 
+clean.addEventListener("click", () => {
+    form.reset();
+    form.style.border = "none";
+    output.textContent = "";
+});
