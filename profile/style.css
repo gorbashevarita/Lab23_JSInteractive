@@ -23,7 +23,7 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0 auto;
 }
-.clean {
+.button {
     display: flex;
     flex-direction: column;
     background-color: rgb(168, 239, 255);
@@ -35,6 +35,18 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 20px auto;
 }
-.clean:hover {
+.button:hover {
     background-color: rgb(145, 235, 255);
+}
+.output {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+#output {
+    white-space: pre-line;
+    padding: 10px;
+    font-size: large;
 }

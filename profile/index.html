@@ -8,13 +8,15 @@
 </head>
 <body>
     <h1>Профиль пользователя</h1>
-    <form id="form" class="form">
-        <label>Имя: <input type="text" name="name" placeholder="Введите свое имя:" required></label>
-        <label>Возраст: <input type="number" name="age" min="1" max="120" required></label>
-        <label>Город: <input type="text" name="town" placeholder="Введите город:"></label>
-        <label>Хобби: <input type="text" name="hobbi" placeholder="Введите свое хобби:"></label>
+    <form class="form" id="form">
+        <input id="name" type="text" name="name" placeholder="Введите имя:" required>
+        <input id="age" type="number" name="age" min="1" max="120" placeholder="Введите возраст:" required>
+        <input id="town" type="text" name="town" placeholder="Введите город:" required>
+        <input id="hobbi" type="text" name="hobbi" placeholder="Введите хобби:" required>
     </form>
-    <button id="clean" class="clean">Очистить данные</button>
+    <button id="clean" class="button">Очистить данные</button>
+    <button id="show" class="button">Показать данные</button>
+    <p id="output" class="output"></p>
     <script src="main.js"></script>
 </body>
 </html>
